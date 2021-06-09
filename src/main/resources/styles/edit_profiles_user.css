@@ -1,0 +1,134 @@
+.user-edit-profile-container {
+    margin-top: 30px;
+}
+
+.title {
+    font-size: 20px;
+    border-bottom: 1px solid #eff0f1;
+    padding-bottom: 22px;
+    margin: 10px 0;
+    color: #555555;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background: #535a60;
+    border-radius: 0 0 3px 3px;
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+    width: 125px;
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: -24px;
+}
+
+.custom-file-upload:hover {
+    background: #3c4146;
+}
+.avatar > img {
+    display: block;
+}
+
+.edit-container {
+    display: flex;
+}
+
+.profiles > input {
+    padding: 7px;
+    padding-right: 150px;
+    padding-left: 15px;
+}
+
+.profiles {
+    margin-left: 50px;
+}
+
+.profiles > div {
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.social > div {
+    display: flex;
+    margin-top: 28px;
+}
+
+#editor {
+    margin-bottom: 30px;
+}
+
+.social {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #eff0f1;
+    border-bottom: 1px solid #eff0f1;
+}
+
+.social > div > div > div:first-child {
+    padding: 0 2px;
+    color: #0c0d0e;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.social > div > div > div:last-child {
+    display: flex;
+    align-items: center;
+}
+
+.social svg {
+    position: absolute;
+    margin-left: 7px;
+    fill: #bbc0c4;
+}
+
+.social > div > div {
+    margin-right: 30px;
+}
+
+.social input {
+    padding: 7px 0px;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+.action {
+    padding-bottom: 100px;
+    margin-top: 30px;
+}
+
+.action a {
+    margin-left: 6px;
+    display: inline-block;
+    padding: 0.8em;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background-color: transparent;
+    outline: none;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.15384615;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+    color: #0077cc;
+}
+
+.action a:hover {
+    color: #0064bd;
+    background: #f2f9ff;
+    text-decoration: none;
+}

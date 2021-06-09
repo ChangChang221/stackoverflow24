@@ -1,0 +1,190 @@
+.user-heading-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.menu-user {
+  border: none;
+  font: unset;
+  background: none;
+  box-shadow: none;
+  cursor: pointer;
+  user-select: auto;
+  margin: 2px 8px;
+  text-decoration: none;
+  color: #535a60;
+  font-size: 13px;
+}
+
+.menu-user-active {
+  font-size: 13px;
+  background-color: #f48024;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 1000px;
+  margin: 2px 8px;
+  text-decoration: none;
+}
+
+.user-heading-container > div:last-child img {
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+.user-heading-container > div:last-child a {
+  text-decoration: none;
+  color: #0077cc;
+  font-size: 12px;
+}
+
+.user-challenge > div {
+  align-content: center;
+  justify-content: center;
+  min-width: 0;
+  padding: 0 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 2;
+  text-decoration: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.user-challenge {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.user-challenge > div:first-child {
+  border: 1px solid #f1b600;
+  background-color: #fff4d1;
+  color: #3c4146;
+}
+
+.user-challenge > div:nth-child(2) {
+  border: 1px solid #9a9c9f;
+  background-color: #e8e8e8;
+  color: #3c4146;
+}
+
+.user-challenge > div:last-child {
+  border: 1px solid #ab825f;
+  background-color: #f2e9e1;
+  color: #3c4146;
+}
+
+.user-challenge > div > span:last-child {
+  margin-left: 3px;
+}
+
+.user-challenge > div {
+  display: flex;
+  align-items: center;
+}
+
+.user-main-profiles {
+  display: flex;
+}
+
+.user-profiles-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.user-avatar {
+  box-shadow: inset 0 10em 0 #eff0f1;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #d6d9dc;
+}
+
+.user-description {
+  margin-left: 30px;
+}
+
+.user-description > h2 > a {
+  font-size: 12px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 8px;
+  border-radius: 3px;
+  border: 1px solid #0064bd;
+  font-weight: 500;
+}
+
+.user-more-challenge {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-more-challenge > div {
+  margin-right: 20px;
+}
+
+.user-more-challenge > div h3,
+.user-more-challenge > div p {
+  margin: 5px 0px;
+}
+
+.user-more-profiles {
+  max-width: 285px;
+  font-size: 13px;
+  color: #3c4146;
+}
+
+.user-more-profiles a {
+  text-decoration: none;
+  color: #3c4146;
+}
+
+.user-more-profiles svg {
+  fill: #3c4146;
+}
+
+.user-more-profiles td {
+  padding: 3px;
+}
+
+.votes {
+  display: inline-block;
+  padding: 5px;
+  background-color: #5eba7d;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.user-my-question a {
+  color: #0064bd;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.user-my-question a:hover {
+  color: #0095ff;
+}
+
+.user-my-question {
+  display: flex;
+  align-items: center;
+}
+
+.user-my-question *:not(:first-child) {
+  margin-left: 10px;
+}
+
+.user-my-question-timestamp {
+  color: #6a737c;
+  font-size: 12px;
+}
+
+.user-my-question-container {
+  padding: 10px 0px;
+  align-items: center;
+  border-top: 1px solid #d6d9dc;
+}

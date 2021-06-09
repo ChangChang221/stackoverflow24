@@ -1,0 +1,33 @@
+.aside .logo a::before{
+    border-top: 4px solid #fa5b0f;
+    border-left: 4px solid #fa5b0f;
+
+}
+.aside .logo a::after{
+    border-right: 4px solid #fa5b0f;
+    border-bottom: 4px solid #fa5b0f;
+}
+
+.about .about-content .about-text h3 span,
+.service .service-item .service-item-inner .icon .fa,
+.aside .nav li a:hover,
+.aside .nav li a.active {
+    color: #fa5b0f;
+}
+.service .service-item .service-item-inner:hover .icon,
+.btn,
+.about .about-content .skills .skill-item .process .process-in,
+.section-title h2::after,
+.aside .nav-toggler span,
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after,
+.home .intro .social-link a,
+.section-title h2::before{
+    background-color:#fa5b0f;
+}
+table tr:nth-child(1){
+    background-color: #fa5b0f;
+}
+
+
+
